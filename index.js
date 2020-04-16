@@ -19,7 +19,7 @@ function destructivelyDeleteFromObjectByKey(object,key){
   return object;
 }
 
-function destructivelyDeleteFromObjectsByKey(object,key){
+function deleteFromObjectsByKey(object,key){
     ObjNew = Object.assign({},object);
     delete ObjNew.key;
     return ObjNew;}
